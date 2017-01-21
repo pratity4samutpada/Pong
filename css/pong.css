@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    overflow: hidden;
+
+}
+#mainBoard{
+    background-color: black;
+    width:800px;
+    height:700px;%;
+    line-height: 0;
+    text-align: center;
+    margin:0 auto;
+    margin-top:2px;
+    padding-top:10%;
+}
+
+.cell{
+    height: 2%;
+    width:2%;
+    border:1px solid lawngreen;
+    display: inline-block;
+    line-height: 0;
+
+}
+
+.button{
+    height:50px;
+    width:50px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.ball{
+    background-color: white;
+}
+
+.paddle1,.paddle2,.paddleTop,.paddleBottom{
+    background-color: aqua;
+}
